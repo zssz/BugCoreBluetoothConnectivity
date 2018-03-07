@@ -12,6 +12,7 @@
 		2D75727B2024C0E900D684B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D75727A2024C0E900D684B7 /* Assets.xcassets */; };
 		2D75727E2024C0E900D684B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D75727C2024C0E900D684B7 /* LaunchScreen.storyboard */; };
 		2D7572922024C9AD00D684B7 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7572912024C9AD00D684B7 /* TableViewController.swift */; };
+		2DD85250205029D70013BAD7 /* ReadMe.md in Resources */ = {isa = PBXBuildFile; fileRef = 2DD8524F205029D70013BAD7 /* ReadMe.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		2D75727D2024C0E900D684B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2D75727F2024C0E900D684B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2D7572912024C9AD00D684B7 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		2DD8524F205029D70013BAD7 /* ReadMe.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = ReadMe.md; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				2D75727A2024C0E900D684B7 /* Assets.xcassets */,
 				2D75727C2024C0E900D684B7 /* LaunchScreen.storyboard */,
 				2D75727F2024C0E900D684B7 /* Info.plist */,
+				2DD8524F205029D70013BAD7 /* ReadMe.md */,
 			);
 			path = BugCoreBluetoothConnectivity;
 			sourceTree = "<group>";
@@ -130,6 +133,7 @@
 			files = (
 				2D75727E2024C0E900D684B7 /* LaunchScreen.storyboard in Resources */,
 				2D75727B2024C0E900D684B7 /* Assets.xcassets in Resources */,
+				2DD85250205029D70013BAD7 /* ReadMe.md in Resources */,
 				2D7572792024C0E900D684B7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,6 +286,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S647QX78WZ;
 				INFOPLIST_FILE = BugCoreBluetoothConnectivity/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = company.ize.BugCoreBluetoothConnectivity;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -297,6 +302,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S647QX78WZ;
 				INFOPLIST_FILE = BugCoreBluetoothConnectivity/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = company.ize.BugCoreBluetoothConnectivity;
 				PRODUCT_NAME = "$(TARGET_NAME)";
