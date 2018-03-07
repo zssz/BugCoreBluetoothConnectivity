@@ -13,9 +13,9 @@ BugCoreBluetoothConnectivity demonstrates a CoreBluetooth bug that makes iOS 11.
 
 ## Details
 The app constantly scans and discovers peripherals with any advertised service. It shows them in a table view. The text color used in a table cell indicates the peripheral's connection state:
-Black:=Disconnected
-Orange:=Connecting
-Green:=Connected
++ Black:=Disconnected
++ Orange:=Connecting
++ Green:=Connected
 The app attempts to connect to the peripherals. If a connection is established then waits for a timeout to expire. After it expired the app cancels the connection, simulating that it has finished with it (e.g. has all data that it needs). Then waits for another timeout to expire and starts over.
 
 Of course, repeated connection set ups and tear downs isn't a normal use case. That's the reason why it is *very* hard to reproduce this state during the development of a normal app.
