@@ -1,3 +1,5 @@
+*Update*: This bug is fixed in iOS 12.
+
 # BugCoreBluetoothConnectivity
 BugCoreBluetoothConnectivity demonstrates a CoreBluetooth bug that makes iOS 11.x get into a state where it can't connect to any nearby device. This affects all apps (i.e., it has nothing to do with the app). Once the device is in this state no app can connect to any peripheral including Apple devices like Apple TVs. The only way to fix it is to toggle Bluetooth from Settings.
 
